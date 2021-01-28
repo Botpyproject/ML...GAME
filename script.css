@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.game{
+    width:1000px;
+    height: 260px;
+    border: 2px solid rgb(100, 210, 252);
+    margin-top: 6%;
+    margin-left: 12%;
+    background-image: url("https://st2.depositphotos.com/3759469/6798/v/600/depositphotos_67982979-stock-illustration-horizontally-seamless-game-background.jpg");
+    padding-bottom: 0%;
+}
+.heading{
+    height:30%;
+    width: 105%;
+    color:chartreuse;
+    border: none;
+    font-style: italic;
+    font-size: 2cm;
+    text-align: center;
+    
+}
+body{
+    background-image: url("https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=");
+    background-size: cover;
+}
+#character{
+    width: 40px;
+    height: 70px;
+    position:relative;
+    top: 190px;
+    bottom: 0%;
+    background-color: black;
+}
+.animate{
+    animation: jump 0.5s linear;
+    background-color: black;
+}
+@keyframes jump{
+    0%{top: 190px;}
+    10%{top: 170px;}
+    20%{top: 150px;}
+    30%{top: 130px;}
+    40%{top: 110px;}
+    50%{top: 100px;}
+    60%{top: 110px;}
+    70%{top: 130px;}
+    80%{top: 150px;}
+    90%{top: 170px;}
+    100%{top: 190px;}
+
+}
+#label-container{
+    transform: translate(1200px,-500px);
+    font-size: 100%;
+    color:blanchedalmond;
+    font-style: italic;
+    margin-right: 42%;
+}
+#block{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 190px;
+    left: 500px;
+    color: black;
+    animation: block 3s infinite linear;
+}
+@keyframes block{
+    0%{left: 700px}
+    100%{left: -30px}
+}
+.Jbutton {
+    text-align: center;
+    font-size: 0.8cm;
+    transform: translate(900px,-43px);
+    border: 1px solid rgb(59, 32, 178);
+    background-color: lightseagreen;
+    color: rgb(179, 213, 245);
+    width: 10%;
+    height: 15%;
+    border-radius: 20px;
+
+}
+.Jbutton:hover{
+    cursor: pointer;
+    background-color: wheat;
+    color:lightseagreen;
+}
