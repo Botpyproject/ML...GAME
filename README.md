@@ -1,5 +1,5 @@
 # ML...GAME
-artificiall intelligence based game
+Artificiall intelligence based game
 
 ML-Dynosaur-Game
 
@@ -13,35 +13,27 @@ TEAM MEMBERS
 
 
 
-DEMO of the Game
+DEMO of the Game :
 
 This is a Runner game using voice model of teachable machine
-
 The dynosaur in the game escapes the Rock on saying JUMP
 
-Source code for the Game
+Source code for the Game :
 
 https://github.com/Beat0154/easiest-game-ever
 
-This Link is Used to check the model we trained in Teachable Machine
+This Link is Used to check the model we trained in Teachable Machine :
 
 https://teachablemachine.withgoogle.com/models/JEKaJN3RH/
 
-Some of the Images Related to the Project
-Game
 
-The Dynosaur is Jump when we say Jump
-Game
-
-Game
-
-Repl Link to play the Game
+Repl Link to play the Game :
 
 https://RawUnkemptBotany.karnatipavani.repl.co
 
-Demo vedio
+Demo vedio :
 
-vedio
+https://youtu.be/qGvlz7uoSMU
 
 Online Reference
 https://github.com/Beat0154/easiest-game-ever
